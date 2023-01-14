@@ -6,7 +6,7 @@ a{
     text-decoration: none;
     color: black;
 }
-#linka{
+a#linka{
     color: #0dd3fc; 
 }
 #boltext{
@@ -16,9 +16,6 @@ a{
 ul {
     padding-left: 0;
     list-style-type: none;
-}
-ul#menu li {
-    display:inline;
 }
 div#1{
     float:left;
@@ -38,4 +35,7 @@ div#main{
     top: 0;
     left: 0;
     clear: both;
+}
+h1{
+    font-size: x-large;
 }
