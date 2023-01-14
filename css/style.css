@@ -1,0 +1,41 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#linka{
+    color: #0dd3fc; 
+}
+#boltext{
+    font-weight: bold;
+    color: #0dd3fc;
+}
+ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+ul#menu li {
+    display:inline;
+}
+div#1{
+    float:left;
+}
+div#2{
+    float:right;
+}
+div#main{
+    content: '';
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    clear: both;
+}
