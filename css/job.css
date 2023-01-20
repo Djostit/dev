@@ -1,0 +1,26 @@
+:root { 
+    --gutter: 30px;
+    --cl: #0dd3fc;
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    color: #121212;
+}
+h3, h4, h5, h6 {
+    text-decoration: underline;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.parent li:first {
+    font-weight: bold;
+}
