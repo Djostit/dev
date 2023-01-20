@@ -5,7 +5,7 @@
 }
 
 html {
-    background-color: #212529;
+    background: #212529 url("/img/square.png");
 }
 
 .container {
@@ -45,6 +45,8 @@ html {
 }
 
 .container__menu {
+    width: 900px;
+    margin: 0 auto;
     background-color: #343a40;
     border-radius: 16px;
     padding: 6px;
