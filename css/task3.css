@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.container > div {
+    padding: 4px;
+}
+
+.black {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border:  5px solid black;
+}
+
+.blue__button {
+    border:  5px solid blue;
+    align-self: center;
+}
+
+.blue__button:hover + .parent__one{
+    opacity: 0;
+}
+
+.parent__one {
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+
+.yellow {
+    border:  5px solid yellow;
+    flex: 1 2 40%;
+}
+.cornflowerblue {
+    border:  5px solid cornflowerblue;
+    flex: 2 1 60%;
+}
+
+.pink {
+    height: 50px;
+    border: 5px solid pink;
+}
+
+.parent__three {
+    display: flex;
+    height: 200px;
+    width: 100%;
+}
+
+.purple {
+    border: 5px solid purple;
+    flex: 1 2 30%;
+}
+
+.parent__four {
+    flex: 2 1 80%;
+    flex-direction: column;
+}
+
+.blue {
+    border: 5px solid blue;
+    height: 60%;
+    width: 100%;
+}
+
+.parent__five {
+    display: flex;
+    height: 40%;
+}
+
+.green {
+    border:  5px solid green;
+    flex: 1 2 50%;
+}
+.gray {
+    border:  5px solid gray;
+    flex: 2 1 50%;
+}
