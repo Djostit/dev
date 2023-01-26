@@ -5,15 +5,14 @@
 }
 
 html {
-    background: #212529 url("/img/square.png");
+    background: #212529;
 }
 
-.container {
-    width: 900px;
+.header {
     margin: 0 auto;
 }
 
-.menu__inner {
+.header__inner {
     margin: 25px 0;
     display: flex;
     justify-content: space-between;
@@ -76,4 +75,14 @@ html {
 
 .second ul li:nth-child(1) {
     color: red;
+}
+
+.footer {
+    padding-top: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__container {
+    color: #dee2e6;
 }
