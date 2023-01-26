@@ -1,19 +1,14 @@
 *{
     box-sizing: border-box;
 }
+
 .container {
     display: flex;
     flex-direction: column;
 }
+
 .container > div {
     padding: 4px;
-}
-
-.black {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    border:  5px solid black;
 }
 
 .blue__button {
@@ -21,8 +16,15 @@
     align-self: center;
 }
 
-.blue__button:hover + .parent__one{
-    opacity: 0;
+.blue__button:hover{
+    display: none;
+}
+
+.black {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border:  5px solid black;
 }
 
 .parent__one {
